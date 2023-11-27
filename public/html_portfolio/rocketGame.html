@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- ===== SWIPER CSS ===== -->
+        <link rel="stylesheet" href="../assets/css/swiper-bundle.min.css">
+        
+        <!-- ===== BOX ICONS ===== -->
+        <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+
+        <!-- ===== CSS ===== -->
+        <link rel="stylesheet" href="../assets/css/styles.css">
+        <link rel="stylesheet" href="../assets/css/spm.css">
+
+        <title>LinX</title>
+        <link rel="icon" type="image/png" href="assets/img/LinX.png">
+    </head>
+    <body>
+        <!--===== SCROLL TOP =====-->
+        <a href="#" class="scrolltop" id="scroll-top">
+            <i class='bx bx-chevron-up scrolltop__icon'></i>
+        </a>
+        
+        <!--===== HEADER =====-->
+        <header class="l-header scroll-header" id="header">
+            <nav class ="nav bd-container">
+                <a href="../index.html" class="nav__logo">LinX</a>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="../index.html" class="nav__link">Home</a></li>
+                        <li class="nav__item"><a href="../index.html" class="nav__link">Profil</a></li>
+                        <li class="nav__item"><a href="../index.html" class="nav__link">Services</a></li>
+                        <li class="nav__item"><a href="../index.html" class="nav__link active-link">Portfolio</a></li>
+                        <li class="nav__item"><a href="../index.html" class="nav__link">Kontakt</a></li>
+                    </ul>
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-menu'></i>
+                </div>
+            </nav>
+        </header>
+
+        <main class="l-main">
+            
+            <!--===== Portfolio =====-->
+            <section class="about section bd-container container__portfolio" id="about">
+                <span class="section-subtitle">Über das Projekt</span>
+                <h2 class="section-title">Rocket Game</h2>
+
+                <div class="about__container__portfolio bd-grid">
+                    <div class="about__data__portfolio bd-grid">
+                        <p class="about__description__portfolio"><span>Ein kleines Hobbyprojekt aus Interesse an der Spieleentwicklung mit JavaScript im Browser. Zum Bewegen des Raumschiffs werden die Pfeiltasten nach ob und unter verwendet. Zum schießen die Leertaste. Bei einer Kollision mit einem feindlichen Raumschiff wird das Spiel im Browser neu geladen.</span></p>
+                        <a href="https://github.com/DanielMWill/rocktGame/tree/main/Spiel" class="button button-link">Zum GitHub Repository ></a>
+                        <div class="portfolio__social">
+                            <a href="#" class="portfolio__link"><i class='bx bxl-html5'></i></a>
+                            <a href="#" class="portfolio__link"><i class='bx bxl-css3' ></i></a>
+                            <a href="#" class="portfolio__link"><i class='bx bxl-javascript' ></i></a>
+                        </div>
+                    </div>
+                    <img src="../assets/img/game.png" alt="" class="about__img__portfolio">
+                </div>
+
+            </section>
+
+            <!--===== PROJECT IN MIND =====-->
+            <section class="project section bd-container">
+                <div class="project__container bd-grid">
+                    <div class="project__data">
+                        <i class='bx bx-chat project__icon'></i>
+
+                        <div>
+                            <h2 class="project__title">Schon ein Projekt im Kopf?</h2>
+                            <p class="project__description">Melden Sie sich, um es umzusetzen.</p>
+                        </div>
+
+                        <div>
+                            <a href="../index.html" class="button button-white">Kontakt</a>
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+
+            <!--===== PORTFOLIO =====-->
+            <section class="portfolio section bd-container" id="portfolio">
+                <span class="section-subtitle">Bisherige Projekte</span>
+                <h2 class="section-title">Portfolio</h2>
+
+                <div class="portfolio__nav">
+                    <span class="portfolio__item active-portfolio" data-filter="all">All</span>
+                    <span class="portfolio__item" data-filter=".web">Web</span>
+                    <span class="portfolio__item" data-filter=".ux">Ui/Ux</span>
+                    <span class="portfolio__item" data-filter=".app">Grafikdesign</span>
+                </div>
+
+                <div class="portfolio__container bd-grid">
+                    <div class="portfolio__content mix web">
+                        <a><img src="../assets/img/PSD-Azubi.jpg" alt="" class="portfolio__img"></a>
+                        <div class="portfolio__data">
+                            <span class="portfolio__subtitle">Webdevelopment</span>
+                            <a href="../psd_azubi.html"><h2 class="portfolio__title">Azubi Landingpages für die PSD-Bank München.</h2></a>
+                            <a href="../psd_azubi.html" class="button button-link">Zum Projekt</a>
+                        </div>
+                    </div>
+
+                    <div class="portfolio__content mix web">
+                        <a><img src="../assets/img/SPM.jpg" alt="" class="portfolio__img"></a>
+                        <div class="portfolio__data">
+                            <span class="portfolio__subtitle">Webdevelopment</span>
+                            <a href="../spm.html"><h2 class="portfolio__title">Webrelaunch der Agentur Social-Power-Marketing.</h2></a>
+                            <a href="../spm.html" class="button button-link">Zum Projekt</a>
+                        </div>
+                    </div>
+
+                    <div class="portfolio__content mix ux">
+                        <a><img src="../assets/img/MobileAnwendung.jpg" alt="" class="portfolio__img"></a>
+                        <div class="portfolio__data">
+                            <span class="portfolio__subtitle">Ux Design</span>
+                            <a href="../vr_app.html"><h2 class="portfolio__title">Lebensphasen spezifische Banking App.</h2></a>
+                            <a href="../vr_app.html" class="button button-link">Kontakt</a>
+                        </div>
+                    </div>
+
+                    <div class="portfolio__content mix ux">
+                        <a><img src="../assets/img/Qinao.jpg" alt="" class="portfolio__img"></a>
+                        <div class="portfolio__data">
+                            <span class="portfolio__subtitle">Ux Design</span>
+                            <a href="../qinao.html"><h2 class="portfolio__title">Webdesignprojekt an der Hochschule Neu-Ulm.</h2></a>
+                            <a href="../qinao.html" class="button button-link">Zum Projekt</a>
+                        </div>
+                    </div>
+
+                    <div class="portfolio__content mix app">
+                        <a><img src="../assets/img/ESV.jpg" alt="" class="portfolio__img"></a>
+                        <div class="portfolio__data">
+                            <span class="portfolio__subtitle">Grafikdesign</span>
+                            <a href="../https://www.instagram.com/esv.burgau/"><h2 class="portfolio__title">Grafikelemente für den Eishockey Verein Burgau.</h2></a>
+                            <a href="../https://www.instagram.com/esv.burgau/" class="button button-link">Zum Projekt</a>
+                        </div>
+                    </div>
+
+                    <div class="portfolio__content mix web">
+                        <a><img src="../assets/img/derBeck.png" alt="" class="portfolio__img"></a>
+                        <div class="portfolio__data">
+                            <span class="portfolio__subtitle">Webdevelopment</span>
+                            <a href="derBeck.html"><h2 class="portfolio__title">User Centered Design Projekt mit "Der Beck".</h2></a>
+                            <a href="derBeck.html" class="button button-link">Zum Projekt</a>
+                        </div>
+                    </div>
+
+                    <div class="portfolio__content mix app">
+                        <a><img src="../assets/img/zielgruppen.jpg" alt="" class="portfolio__img"></a>
+                        <div class="portfolio__data">
+                            <span class="portfolio__subtitle">Grafikdesign</span>
+                            <a href="../vr_zielgruppe.html"><h2 class="portfolio__title">Infografiken für Zielgruppenanylysen.</h2></a>
+                            <a href="../vr_zielgruppe.html" class="button button-link">Zum Projekt</a>
+                        </div>
+                    </div>
+
+                    <div class="portfolio__content mix web">
+                        <a><img src="../assets/img/Invest2Win_1.png" alt="" class="portfolio__img"></a>
+                        <div class="portfolio__data">
+                            <span class="portfolio__subtitle">Webdevelopment</span>
+                            <a href="invest2Win.html"><h2 class="portfolio__title">Plattform zur Vermögens-<br>verwaltung: Invest2Win.</h2></a>
+                            <a href="invest2Win.html" class="button button-link">Zum Projekt</a>
+                        </div>
+                    </div>
+
+                    <div class="portfolio__content mix web">
+                        <a><img src="../assets/img/jerry.png" alt="" class="portfolio__img"></a>
+                        <div class="portfolio__data">
+                            <span class="portfolio__subtitle">Webdevelopment</span>
+                            <a href="jerry.html"><h2 class="portfolio__title">Say Hi to Jerry.</h2></a>
+                            <a href="jerry.html" class="button button-link">Zum Projekt</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!--===== FOOTER =====-->
+        <footer class="footer">
+            <div class="footer__container bd-container">
+                <h1 class="footer__title">LinX</h1>
+                <p class="footer__description">Ihr Partner für Webdevelopment und Ui/Ux Design.</p>
+
+                <div class="footer__social">
+                    <a href="https://www.linkedin.com/in/daniel-will-b54323213/" class="footer__link"><i class='bx bxl-linkedin'></i></a>
+                    <a href="https://github.com/DanielMWill" class="footer__link"><i class='bx bxl-github'></i></a>
+                    <a href="index_404.html" class="footer__link"><i class='bx bxl-instagram'></i></a>
+                </div>
+                <p class="footer__copy">&#169; 2022 LinX. All rights reserved. <br> With respect to Bedimcode</p>
+            </div>
+        </footer>
+        
+        <!-- ===== MIXITUP FILTER ===== -->
+        <script src="../assets/js/mixitup.min.js"></script>
+        
+        <!-- ===== SWIPER JS ===== -->
+        <script src="../assets/js/swiper-bundle.min.js"></script>
+        
+        <!-- ===== GSAP ===== -->
+        <script src="../assets/js/gsap.min.js"></script>
+
+        <!-- SCROLLMAGIC* -->
+        <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.6/plugins/animation.gsap.min.js"></script>
+        
+        <!--===== MAIN JS =====-->
+        <script src="../assets/js/main.js"></script>
+    </body>
+</html>

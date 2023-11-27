@@ -1,0 +1,26 @@
+/*===== Portfolio =====*/
+.about__container__portfolio {
+    margin-bottom: 4rem;
+}
+
+.about__data__portfolio {
+    text-align: left;
+  }
+  
+  .about__description__portfolio span {
+    font-size: var(--h2-font-size);
+    font-weight: var(--normal-font-size);
+    color: var(--first-color);
+  }
+  
+  .about__number__portfolio {
+    font-size: var(--h1-font-size);
+    color: var(--first-color);
+    display: block;
+  }
+  
+  .about__img__portfolio {
+    justify-self: center;
+    width: 440px;
+    border-radius: .5rem;
+  }

@@ -1,0 +1,35 @@
+/*===== Portfolio =====*/
+.container__portfolio {
+  margin-top: 4rem;
+}
+
+.about__container__portfolio {
+    margin-bottom: 4rem;
+}
+
+.about__data__portfolio {
+    text-align: left;
+  }
+  
+  .about__description__portfolio span {
+    font-size: var(--h3-font-size);
+    font-weight: var(--font-medium);
+    color: var(--first-color);
+  }
+  
+  .about__img__portfolio {
+    justify-self: center;
+    width: 440px; 
+    border-radius: .5rem;
+  }
+
+  .portfolio__social {
+    margin-bottom: var(--mb-6);
+  }
+
+  .portfolio__link {
+    font-size: 1.4rem;
+    color: var(--first-color);
+    margin: 0 var(--mb-1);
+    transition: .3s;
+  }

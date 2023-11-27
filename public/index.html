@@ -1,0 +1,616 @@
+<!DOCTYPE html>
+<!-- ***************************************************************
+* This file belongs to the Daniel Will as a Webportfolio for LinX.
+* Copyright Daniel Will                   
+* With respect to Bedimcode https://www.youtube.com/watch?v=jRMCheGk11E 
+******************************************************************** -->
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- ===== SWIPER CSS ===== -->
+        <link rel="stylesheet" href="/assets/css/swiper-bundle.min.css">
+        
+        <!-- ===== BOX ICONS ===== -->
+        <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+
+        <!-- ===== CSS ===== -->
+        <link rel="stylesheet" href="assets/css/styles.css">
+
+        <title>LinX</title>
+        <link rel="icon" type="image/png" href="assets/img/LinX.png">
+
+        <!-- ===== Slider Import ===== -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    </head>
+    <body>
+        <!--===== SCROLL TOP =====-->
+        <a href="#" class="scrolltop" id="scroll-top">
+            <i class='bx bx-chevron-up scrolltop__icon'></i>
+        </a>
+        
+        <!--===== HEADER =====-->
+        <header class="l-header scroll-header" id="header">
+            <nav class ="nav bd-container">
+                <a href="#" class="nav__logo">LinX</a>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="#home" class="nav__link active-link">Home</a></li>
+                        <li class="nav__item"><a href="#about" class="nav__link">Profil</a></li>
+                        <li class="nav__item"><a href="#services" class="nav__link">Services</a></li>
+                        <li class="nav__item"><a href="#portfolio" class="nav__link">Portfolio</a></li>
+                        <li class="nav__item"><a href="#contact" class="nav__link">Kontakt</a></li>
+                    </ul>
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-menu'></i>
+                </div>
+            </nav>
+        </header>
+
+        <main class="l-main">
+            <!--===== HOME =====-->
+            <section class="home" id="home">
+                <div class="home__container bd-container bd-grid">
+                    <div class="home__data">
+                        <span class="home__greeting">Willkommen bei</span>
+                        <h1 class="home__name">LinX</h1>
+                        <span class="home__profession">Web Development und <br>Content Produktion</span>
+                        <a download="" href="assets/pdf/DanielWill_Lebenslauf.pdf" class="button button-light home__button">Download CV</a>
+                    </div>
+
+                    <div class="home__social">
+                        <a href="https://www.linkedin.com/in/daniel-will-b54323213/" class="home__social-icon"><i class='bx bxl-linkedin' ></i></a>
+                        <a href="../LinX-main/html_portfolio/index_404.html" class="home__social-icon"><i class='bx bxl-instagram' ></i></a>
+                        <a href="https://github.com/DanielMWill" class="home__social-icon"><i class='bx bxl-github' ></i></a>
+                    </div>
+
+                    <div class="home__img">
+                        <img src="assets/img/home_1.png" alt="">
+                    </div>
+
+                </div>
+
+            </section>
+            
+            <!--===== ABOUT =====-->
+            <section class="about section bd-container" id="about">
+                <span class="section-subtitle">Profil</span>
+                <h2 class="section-title">Daniel Will</h2>
+
+                <div class="about__container bd-grid">
+                    <div class="about__data bd-grid">
+                        <p class="about__description"><span>Willkommen auf meiner Portfolioseite LinX. Hier habe ich meine wichtigsten Projekte zusammengetragen.<br/><br>
+                            Ich studiere den Bachelor of Arts Studiengang Information Management und Unternehmenskommunikation, kurz IMUK. Der Studiengang setzt sich aus den Bereichen Betriebswirtschaft, IT und Kommunikation / Gestaltung zusammen.
+                            <br><br>Hinzu kommt meine mehrjährige Arbeitserfahrung in Unternehmen unterschiedlicher Branchen. Ebenso konnte ich als Selbständiger für externe Kunden, wie die PDS-Bank München oder die Franco Consulting GmbH Projekte umsetzten.
+                            </span></p>
+                    </div>
+                    <img src="assets/img/person_1.jpeg" alt="" class="about__img">
+                </div>
+            </section>
+
+            <section class="portfolio section bd-container" id="portfolio">
+                <span class="section-subtitle">Bisherige Projekte</span>
+                <h2 class="section-title">Portfolio</h2>
+
+                <div class="portfolio__nav">
+                    <span class="portfolio__item active-portfolio" data-filter="all">All</span>
+                    <span class="portfolio__item" data-filter=".ux">Videoproduktion</span>
+                    <span class="portfolio__item" data-filter=".web">Webdevelopment</span>
+                    <span class="portfolio__item" data-filter=".app">Grafikdesign</span>
+                </div>
+
+                
+                <div class="portfolio__container bd-grid">
+
+                    <div class="portfolio__content mix ux">
+                        <a><img src="assets/img/reel.jpeg" alt="" class="portfolio__img"></a>
+                        <div class="portfolio__data">
+                            <span class="portfolio__subtitle">Videoproduktion</span>
+                            <a href="reel.html"><h2 class="portfolio__title">Demo Reels.</h2></a>
+                            <a href="reel.html" class="button button-link">Zum Projekt</a>
+                        </div>
+                    </div>
+
+                    <div class="portfolio__content mix ux">
+                        <a><img src="assets/img/vr_PB.png" alt="" class="portfolio__img"></a>
+                        <div class="portfolio__data">
+                            <span class="portfolio__subtitle">Videoproduktion</span>
+                            <a href="vr_TuN_Pizza.html"><h2 class="portfolio__title">Konzeption, Dreh und Postproduktion von "Paul und Nina Backen Pizza".</h2></a>
+                            <a href="vr_TuN_Pizza.html" class="button button-link">Zum Projekt</a>
+                        </div>
+                    </div>
+
+                    <div class="portfolio__content mix web">
+                        <a><img src="assets/img/PSD-Azubi.jpg" alt="" class="portfolio__img"></a>
+                        <div class="portfolio__data">
+                            <span class="portfolio__subtitle">Webdevelopment</span>
+                            <a href="psd_azubi.html"><h2 class="portfolio__title">Azubi Landingpages für die PSD-Bank München.</h2></a>
+                            <a href="psd_azubi.html" class="button button-link">Zum Projekt</a>
+                        </div>
+                    </div>
+
+                    <div class="portfolio__content mix web">
+                        <a><img src="assets/img/fc_WS_1.PNG" alt="" class="portfolio__img"></a>
+                        <div class="portfolio__data">
+                            <span class="portfolio__subtitle">Webdevelopment</span>
+                            <a href="spm.html"><h2 class="portfolio__title">Webrelaunch der Agentur Social-Power-Marketing.</h2></a>
+                            <a href="spm.html" class="button button-link">Zum Projekt</a>
+                        </div>
+                    </div>
+
+                    <div class="portfolio__content mix ux">
+                        <a><img src="assets/img/hw_Intro_1.PNG" alt="" class="portfolio__img"></a>
+                        <div class="portfolio__data">
+                            <span class="portfolio__subtitle">Videoproduktion</span>
+                            <a href="hw_Intro.html"><h2 class="portfolio__title">Konzeption, Animation und Schnitt des Trailers für HW-23.</h2></a>
+                            <a href="hw_Intro.html" class="button button-link">Zum Projekt</a>
+                        </div>
+                    </div>
+
+                    <div class="portfolio__content mix web">
+                        <a><img src="assets/img/Qinao.jpg" alt="" class="portfolio__img"></a>
+                        <div class="portfolio__data">
+                            <span class="portfolio__subtitle">Webdevelopment</span>
+                            <a href="qinao.html"><h2 class="portfolio__title">Webdesignprojekt an der Hochschule Neu-Ulm.</h2></a>
+                            <a href="qinao.html" class="button button-link">Zum Projekt</a>
+                        </div>
+                    </div>
+
+                    <div class="portfolio__content mix ux">
+                        <a><img src="assets/img/vr_BB.png" alt="" class="portfolio__img"></a>
+                        <div class="portfolio__data">
+                            <span class="portfolio__subtitle">Videoproduktion</span>
+                            <a href="vr_PuN_Schiff.html"><h2 class="portfolio__title">Konzeption, Dreh und Postproduktion von "Zahnpirat Paul".</h2></a>
+                            <a href="vr_PuN_Schiff.html" class="button button-link">Zum Projekt</a>
+                        </div>
+                    </div>
+
+                    <div class="portfolio__content mix app">
+                        <a><img src="assets/img/hnu_RB.png" alt="" class="portfolio__img"></a>
+                        <div class="portfolio__data">
+                            <span class="portfolio__subtitle">Grafikdesign</span>
+                            <a href="hnu_RB.html"><h2 class="portfolio__title">Redaktioneller Beitrag für die Breitseite.</h2></a>
+                            <a href="hnu_RB.html" class="button button-link">Zum Projekt</a>
+                        </div>
+                    </div>
+
+                    <div class="portfolio__content mix app">
+                        <a><img src="assets/img/ESV.jpg" alt="" class="portfolio__img"></a>
+                        <div class="portfolio__data">
+                            <span class="portfolio__subtitle">Grafikdesign</span>
+                            <a href="https://www.instagram.com/esv.burgau/"><h2 class="portfolio__title">Instagram Posts für den Eishockey Verein Burgau.</h2></a>
+                            <a href="https://www.instagram.com/esv.burgau/" class="button button-link">Zum Projekt</a>
+                        </div>
+                    </div>
+
+                    <div class="portfolio__content mix app">
+                        <a><img src="assets/img/zielgruppen.jpg" alt="" class="portfolio__img"></a>
+                        <div class="portfolio__data">
+                            <span class="portfolio__subtitle">Grafikdesign</span>
+                            <a href="vr_zielgruppe.html"><h2 class="portfolio__title">Infografiken für Zielgruppenanalysen.</h2></a>
+                            <a href="vr_zielgruppe.html" class="button button-link">Zum Projekt</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--===== IMG Slider Import
+            <section class="slider section bd-container" id="">
+                <div class="slider__container">
+                    <div id="slide">
+                        <div class="slide_item" style="background-image: url(../LinX-main/assets/assets_slider/img/slider_1.jpeg);">
+                            <div class="slide_content">
+                                <div class="name">LUNDEV_1</div>
+                                <div class="des">Tinh ru anh di chay pho, chua kip chay pho thi anhchay mat tieu</div>
+                                <button>See more</button>
+                            </div>
+                        </div>
+                        <div class="slide_item" style="background-image: url(../LinX-main/assets/assets_slider/img/slider_2.jpg);">
+                            <div class="slide_content">
+                                <div class="name">LUNDEV_2</div>
+                                <div class="des">Tinh ru anh di chay pho, chua kip chay pho thi anhchay mat tieu</div>
+                                <button>See more</button>
+                            </div>
+                        </div>
+                        <div class="slide_item" style="background-image: url(../LinX-main/assets/assets_slider/img/slider_3.jpeg);">
+                            <div class="slide_content">
+                                <div class="name">LUNDEV_3</div>
+                                <div class="des">Tinh ru anh di chay pho, chua kip chay pho thi anhchay mat tieu</div>
+                                <button>See more</button>
+                            </div>
+                        </div>
+                        <div class="slide_item" style="background-image: url(../LinX_Slider/assets/img/slider_4.jpeg);">
+                            <div class="slide_content">
+                                <div class="name">LUNDEV_4</div>
+                                <div class="des">Tinh ru anh di chay pho, chua kip chay pho thi anhchay mat tieu</div>
+                                <button>See more</button>
+                            </div>
+                        </div>
+                        <div class="slide_item" style="background-image: url(../LinX_Slider/assets/img/slider_5.jpg);">
+                            <div class="slide_content">
+                                <div class="name">LUNDEV_5</div>
+                                <div class="des">Tinh ru anh di chay pho, chua kip chay pho thi anhchay mat tieu</div>
+                                <button>See more</button>
+                            </div>
+                        </div>
+                        <div class="slide_item" style="background-image: url(../LinX_Slider/assets/img/slider_2.jpg);">
+                            <div class="slide_content">
+                                <div class="name">LUNDEV_6</div>
+                                <div class="des">Tinh ru anh di chay pho, chua kip chay pho thi anhchay mat tieu</div>
+                                <button>See more</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="buttons">
+                        <button id="prev"><i class="fa-solid fa-angle-left"></i></button>
+                        <button id="next"><i class="fa-solid fa-angle-right"></i></button>
+                    </div>
+                </div>
+                <script src="../LinX-main/assets/assets_slider/script.js"></script>
+            </section>
+
+             =====-->
+
+
+            <!--===== QUALIFICATION =====-->
+            <section class="qualification section bd-container">
+                <span class="section-subtitle">Erfahrung und Ausbildung</span>
+                <h2 class="section-title">Qualifikation</h2>
+
+                <div class="qualification__container bd-grid">
+                    <div class="qualification__content">
+                        <h2 class="qualification__title">
+                            <i class='bx bx-briefcase-alt qualification__title-icon'></i>
+                            Berufserfahrung
+                        </h2>
+
+                        <div class="bd-grid">
+                            <div class="qualification__data">
+                                <h3 class="qualification__area">Communication and Coporate Responsibility</h3>
+
+                                <div class="qualification__box">
+                                    <span class="qualification__work">
+                                        <i class='bx bx-briefcase-alt qualification__icon'></i>
+                                        Allianz SE - München
+                                    </span>
+
+                                    <span class="qualification__work">
+                                        <i class='bx bx-calendar-alt qualification__icon'></i>
+                                        Sept. 2019
+                                    </span>
+                                </div>
+                            </div>
+
+                            <div class="qualification__data">
+                                <h3 class="qualification__area">Technische Planung</h3>
+
+                                <div class="qualification__box">
+                                    <span class="qualification__work">
+                                        <i class='bx bx-briefcase-alt qualification__icon'></i>
+                                        Klimmer GmbH - Burgau
+                                    </span>
+
+                                    <span class="qualification__work">
+                                        <i class='bx bx-calendar-alt qualification__icon'></i>
+                                        Okt. 2017 - Feb. 2018
+                                    </span>
+                                </div>
+                            </div>
+
+                            <div class="qualification__data">
+                                <h3 class="qualification__area">Business Development & Marketing</h3>
+
+                                <div class="qualification__box">
+                                    <span class="qualification__work">
+                                        <i class='bx bx-briefcase-alt qualification__icon'></i>
+                                        Biallo & Team GmbH - Schondorf
+                                    </span>
+
+                                    <span class="qualification__work">
+                                        <i class='bx bx-calendar-alt qualification__icon'></i>
+                                        Jul. 2019 - Jul. 2020
+                                    </span>
+                                </div>
+                            </div>
+
+                            <div class="qualification__data">
+                                <h3 class="qualification__area">Freelancer Front End Development</h3>
+
+                                <div class="qualification__box">
+                                    <span class="qualification__work">
+                                        <i class='bx bx-briefcase-alt qualification__icon'></i>
+                                        VR-Bank Donau Mindel | PSD-Bank München | ESV Burgau
+                                    </span>
+
+                                    <span class="qualification__work">
+                                        <i class='bx bx-calendar-alt qualification__icon'></i>
+                                        seit Sep. 2020
+                                    </span>
+                                </div>
+                            </div>
+
+                            <div class="qualification__data">
+                                <h3 class="qualification__area">Technichal Informationmanagement</h3>
+
+                                <div class="qualification__box">
+                                    <span class="qualification__work">
+                                        <i class='bx bx-briefcase-alt qualification__icon'></i>
+                                        Liebherr IT-Services GmbH
+                                    </span>
+
+                                    <span class="qualification__work">
+                                        <i class='bx bx-calendar-alt qualification__icon'></i>
+                                        Nov. 2022 - Apr. 2023
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="qualification__content">
+                        <h2 class="qualification__title">
+                            <i class='bx bx-book-bookmark qualification__title-icon'></i>
+                            Ausbildung
+                        </h2>
+
+                        <div class="bd-grid">
+                            <div class="qualification__data">
+                                <h3 class="qualification__area">Informationmanagement Automotive (B.Sc.)</h3>
+
+                                <div class="qualification__box">
+                                    <span class="qualification__work">
+                                        <i class='bx bx-book-alt qualification__icon'></i>
+                                        Technische Hochschule - Neu-Ulm
+                                    </span>
+
+                                    <span class="qualification__work">
+                                        <i class='bx bx-calendar-alt qualification__icon'></i>
+                                        Mär. 2018 - Apr. 2019
+                                    </span>
+                                </div>
+                            </div>
+
+                            <div class="qualification__data">
+                                <h3 class="qualification__area">Informationmanagement und Unternehmenskommunikation (B.A.)</h3>
+
+                                <div class="qualification__box">
+                                    <span class="qualification__work">
+                                        <i class='bx bx-book-alt qualification__icon'></i>
+                                        Technische Hochschule - Neu-Ulm
+                                    </span>
+
+                                    <span class="qualification__work">
+                                        <i class='bx bx-calendar-alt qualification__icon'></i>
+                                        Okt. 2019 - Feb. 2023
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--===== SERVICES =====-->
+            <section class="qualification section bd-container" id="services">
+                <span class="section-subtitle">Unsere Leistungen</span>
+                <h2 class="section-title">Skills</h2>
+
+                <div class="services__container bd-grid">
+                    <div class="services__data">
+                        <i class='bx bx-video services__icon'></i>
+                        <h3 class="services__title">Videoproduktion</h3>
+                        <p class="service__description">Konzeption, Dreh bis hin zur Postproduktion, zur Erstellung von Kunden gerechten Videos .</p>
+                        <a href="vr_TuN_Pizza.html" class="button">Showcase</a>
+                    </div>
+
+                    <div class="services__data">
+                        <i class='bx bx-laptop services__icon'></i>
+                        <h3 class="services__title">Webdevelopment</h3>
+                        <p class="service__description">Konzeption und Entwicklung von Webseiten mittels HTML, CSS und JavaScript oder Wordpress.</p>
+                        <a href="spm.html" class="button">Showcase</a>
+                    </div>
+
+                    <div class="services__data">
+                        <i class='bx bx-pen services__icon'></i>
+                        <h3 class="services__title">Grafik Design</h3>
+                        <p class="service__description">Erstellen von Infografiken oder Grafikelementen, egal ob für Print- oder Digitalemedien.</p>
+                        <a href="hnu_RB.html" class="button">Showcase</a>
+                    </div>
+                </div>
+                </section>
+            
+            
+            <!--===== PROJECT IN MIND =====-->
+            <section class="project section bd-container">
+                <div class="project__container bd-grid">
+                    <div class="project__data">
+                        <i class='bx bx-chat project__icon'></i>
+
+                        <div>
+                            <h2 class="project__title">Schon ein Projekt im Kopf?</h2>
+                            <p class="project__description">Melden Sie sich, um es umzusetzen.</p>
+                        </div>
+
+                        <div>
+                            <a href="#contact" class="button button-white">Kontakt</a>
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+
+            <!--===== PORTFOLIO =====-->
+            
+
+            <!--===== TESTIMONIAL =====-->
+            <!-- Alte Projkete
+
+                     <div class="portfolio__content mix ux">
+                        <a><img src="assets/img/MobileAnwendung.jpg" alt="" class="portfolio__img"></a>
+                        <div class="portfolio__data">
+                            <span class="portfolio__subtitle">Ux Design</span>
+                            <a href="vr_app.html"><h2 class="portfolio__title">Lebensphasen spezifische Banking App.</h2></a>
+                            <a href="vr_app.html" class="button button-link">Zum Projekt</a>
+                        </div>
+                    </div>
+
+            
+                                <div class="portfolio__content mix web">
+                        <a><img src="assets/img/game.png" alt="" class="portfolio__img"></a>
+                        <div class="portfolio__data">
+                            <span class="portfolio__subtitle">Webdevelopment</span>
+                            <a href="../html_portfolio/rocketGame.html"><h2 class="portfolio__title">Rocket Game.</h2></a>
+                            <a href="../html_portfolio/rocketGame.html" class="button button-link">Zum Projekt</a>
+                        </div>
+                    </div>
+
+                                        <div class="portfolio__content mix web">
+                        <a><img src="assets/img/derBeck.png" alt="" class="portfolio__img"></a>
+                        <div class="portfolio__data">
+                            <span class="portfolio__subtitle">Webdevelopment</span>
+                            <a href="../html_portfolio/derBeck.html"><h2 class="portfolio__title">User Centered Design Projekt mit "Der Beck".</h2></a>
+                            <a href="../html_portfolio/derBeck.html" class="button button-link">Zum Projekt</a>
+                        </div>
+                    </div>
+
+                                        <div class="portfolio__content mix web">
+                        <a><img src="/assets/img/Invest2Win_1.png" alt="" class="portfolio__img"></a>
+                        <div class="portfolio__data">
+                            <span class="portfolio__subtitle">Webdevelopment</span>
+                            <a href="../html_portfolio/invest2Win.html"><h2 class="portfolio__title">Plattform zur Vermögens-<br>verwaltung: Invest2Win.</h2></a>
+                            <a href="../html_portfolio/invest2Win.html" class="button button-link">Zum Projekt</a>
+                        </div>
+                    </div>
+
+
+
+            <section class="testimonial section bd-container">
+                <span class="section-subtitle">My client saying</span>
+                <h2 class="section-title">Testimonial</h2>
+
+                <div class="testimonial__container swiper-container">
+                    <div class="swiper-wrapper">
+                        <div class="testimonial__content swiper-slide">
+                            <img src="/assets/img/testimonial1.jpg" alt="" class="testimonial__img">
+                            <h3 class="testimonial__title">Nick Holly</h3>
+                            <span class="testimonial__client">Client</span>
+                            <p class="testimonial__description">This company does a very good service, offers the best deals and does a good job, I recommend it.</p>
+                        </div>
+
+                        <div class="testimonial__content swiper-slide">
+                            <img src="/assets/img/testimonial2.jpg" alt="" class="testimonial__img">
+                            <h3 class="testimonial__title">Sara Mill</h3>
+                            <span class="testimonial__client">Client</span>
+                            <p class="testimonial__description">This company does a very good service, offers the best deals and does a good job, I recommend it.</p>
+                        </div>
+
+                        <div class="testimonial__content swiper-slide">
+                            <img src="/assets/img/testimonial3.jpg" alt="" class="testimonial__img">
+                            <h3 class="testimonial__title">Clay Mitchell</h3>
+                            <span class="testimonial__client">Client</span>
+                            <p class="testimonial__description">This company does a very good service, offers the best deals and does a good job, I recommend it.</p>
+                        </div>
+                    </div>
+
+                    <div class="swiper-pagination">
+
+                    </div>
+                </div>
+            </section>
+            -->
+
+            <!--===== CONTACTME =====-->
+            <section class="contact section bd-container" id="contact">
+                <span class="section-subtitle">Für Projekte</span>
+                <h2 class="section-title">Kontakt</h2>
+
+                <div class="contact__container bd-grid">
+                    <div class="contact__content bd-grid">
+                        <div class="contact__box">
+                            <i class='bx bx-home'></i>
+                            <h3 class="contact__title">Ort</h3>
+                            <span class="contact__description">Pearl-S.-Buckstraße <br>Neu-Ulm</span>
+                        </div>
+
+                        <div class="contact__box">
+                            <i class='bx bx-phone'></i>
+                            <h3 class="contact__title">Phone</h3>
+                            <span class="contact__description">+49 159 0210 4446</span>
+                        </div>
+
+                        <div class="contact__box">
+                            <i class='bx bx-envelope'></i>
+                            <h3 class="contact__title">E-Mail</h3>
+                            <span class="contact__description">daniel_m_will@web.de</span>
+                        </div>
+
+                        <!--
+                        <div class="contact__box">
+                            <i class='bx bx-chat'></i>
+                            <h3 class="contact__title">Chat</h3>
+                            <span class="contact__description">#123 Lima - Peru</span>
+                            <div>
+                                <a href="#" class="contact__social"><i class='bx bxl-whatsapp-square'></i></a>
+                                <a href="#" class="contact__social"><i class='bx bxl-telegram'></i></a>
+                                <a href="#" class="contact__social"><i class='bx bxl-messenger'></i></a>
+                            </div>
+                        </div>
+                        -->
+                    </div>
+                    <!--=====
+                    <form action="" class="contact__form">
+                        <div class="contact__inputs">
+                            <input type="text" placeholder="Name" class="contact__input">
+                            <input type="email" placeholder="Email" class="contact__input">
+                        </div>
+
+                        <div class="contact__inputs">
+                            <input type="text" placeholder="Project" class="contact__input">
+                            <input type="number" placeholder="Number" class="contact__input">
+                        </div>
+
+                        <textarea name="" id="" cols="0" rows="7" placeholder="Message" class="contact__input"></textarea>
+
+                        <input type="submit" vlaue="Send Message" class="button contact__button">
+                    </form>
+                    =====-->
+                </div>
+            </section>
+        </main>
+
+        <!--===== FOOTER =====-->
+        <footer class="footer">
+            <div class="footer__container bd-container">
+                <h1 class="footer__title">LinX</h1>
+                <p class="footer__description">Ihr Partner für Webdevelopment und Ui/Ux Design.</p>
+
+                <div class="footer__social">
+                    <a href="https://www.linkedin.com/in/daniel-will-b54323213/" class="footer__link"><i class='bx bxl-linkedin'></i></a>
+                    <a href="https://github.com/DanielMWill" class="footer__link"><i class='bx bxl-github'></i></a>
+                    <a href="../html_portfolio/index_404.html" class="footer__link"><i class='bx bxl-instagram'></i></a>
+                </div>
+                <p class="footer__copy">&#169; 2022 LinX. All rights reserved. <br> With respect to Bedimcode</p>
+            </div>
+        </footer>
+        
+        <!-- ===== MIXITUP FILTER ===== -->
+        <script src="assets/js/mixitup.min.js"></script>
+        
+        <!-- ===== SWIPER JS ===== -->
+        <script src="/assets/js/swiper-bundle.min.js"></script>
+        
+        <!-- ===== GSAP ===== -->
+        <script src="/assets/js/gsap.min.js"></script>
+
+        <!-- SCROLLMAGIC* -->
+        <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.6/plugins/animation.gsap.min.js"></script>
+        
+        <!--===== MAIN JS =====-->
+        <script src="/assets/js/main.js"></script>
+    </body>
+</html>
